@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录界面</title>
+    <style>
+        a:link { text-decoration: none;color: blue}
+　　    a:active { text-decoration:blink}
+　　    a:hover { text-decoration:underline;} 
+　　    a:visited { text-decoration: none;}
+    .button { /* 按钮美化 */
+	width: 180px; /* 宽度 */
+	height: 40px; /* 高度 */
+	border-width: 0px; /* 边框宽度 */
+	border-radius: 3px; /* 边框半径 */
+	background: #1E90FF; /* 背景颜色 */
+	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+	font-family: Microsoft YaHei; /* 设置字体 */
+	color: white; /* 字体颜色 */
+	font-size: 17px; /* 字体大小 */
+    }
+    .button1 { /* 按钮美化 */
+	width: 180px; /* 宽度 */
+	height: 40px; /* 高度 */
+	border-width: 0px; /* 边框宽度 */
+	border-radius: 3px; /* 边框半径 */
+	background: white; /* 背景颜色 */
+	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+	font-family: Microsoft YaHei; /* 设置字体 */
+	color:black; /* 字体颜色 */
+	font-size: 17px; /* 字体大小 */
+    }
+    </style>
+</head>
+<body>
+    <form name="user" action="#" method="get">
+    	<table  align="center">
+    		<tr>
+    			<td>
+                    <span style="font-weight: 700;font-size: 2px;color: blue;">密码登录</span><span style="font-weight: 700;font-size: 2px;color: black;">短信登录</span>
+				</td>
+            </tr>
+            <tr>
+    			<td>
+    				<input type="text" style="font-weight: 100;width:350px; height:20px;" value="你的手机号/邮箱" />
+                </td>
+            </tr>
+            <tr> 
+                <td>
+                    <input type="password" style="font-weight: 100;width:350px; height:20px;" value="密码" />
+                </td> 
+            </tr>
+    		<tr>
+    			<td>
+    				<div class="check-item">
+                        <input type="checkbox" class="check-item-in" id="checkbox1" checked="checked"><span style="font-weight:700;font-size:1px;">记住我</span><span style="font-weight:100;font-size:1px;">不是自己电脑不要勾选此选项</span><a href="https://www.bilibili.com/blackboard/help.html#/?qid=01c16d22f6bb44fd976e8874142b60b6"><span style="font-weight: 100;font-size: 1px;color:blue;">无法验证？</span></a><a href="https://passport.bilibili.com/register/findpassword.html#/verify?gourl=https%3A%2F%2Fsearch.bilibili.com%2Fall%3Fkeyword%3Djavascript&amp%3Bfrom_source=nav_search_new"><span style="font-weight: 100;font-size: 1px;color:blue;">忘记密码？</span></a>
+                        <label for="checkbox1"></label>
+                    </div>
+                </td>
+    		</tr>
+            <tr>
+    			<td>
+    				<button class="button">登录</button>
+                    <button class="button1"><a href="https://passport.bilibili.com/register/phone.html#/phone">注册</a></button>
+				</td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="weibodenglu" type="image" src="./img1.png" />
+                    
+                    <input name="weibodenglu" type="image" src="./img2.png" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
